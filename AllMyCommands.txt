@@ -1,0 +1,40 @@
+  200  pwd
+  201  cd Desktop
+  202  cd Sprint0Rep
+  203  git init
+  204  git remote add origin https://github.com/yasminagamal/Sprint0Rep.git
+  205  git push -u origin master
+  206  git push -u origin master
+  207  git add first.txt
+  208  git commit -m "First text file added."
+  209  git push -u origin master
+  210  git push -u origin master
+  211  git add second.txt
+  212  git commit -m "Second file added."
+  213  git add third.txt
+  214  git commit -m "Third file added."
+  215  git push -u origin master
+  216  git log
+  217  git revert 3ef9735f8d863bfa78819d187de1ed9a301c2805
+  218  git push -u origin master
+  219  git add second.txt
+  220  git add second.txt
+  221  git commit -m "Second file added."
+  222  git push -u origin master
+  223  git rm second.txt
+  224  git commit -m "Removed second file."
+  225  git push -u origin master
+  226  git log
+  227  git revert cf2ffb671564c63624050af7b717c8cd3d388f62
+  228  git push -u origin master
+  229  git branch ReadMe
+  230  git checkout ReadMe
+  231  git branch
+  232  git push -u origin master
+  233  git add README.md.txt
+  234  git commit -m "ReadMe added to the ReadMe branch."
+  235  git push -u origin ReadMe
+  236  git checkout master
+  237  git merge ReadMe
+  238  git push -u origin master
+  239  history
