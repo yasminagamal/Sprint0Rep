@@ -38,3 +38,7 @@
   237  git merge ReadMe
   238  git push -u origin master
   239  history
+  241  git add AllMyCommands.txt
+  242  git commit -m "AllMyCommands added."
+  243  git push -u origin master
+  244  history
